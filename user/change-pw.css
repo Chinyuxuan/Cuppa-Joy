@@ -1,0 +1,525 @@
+.back{
+font-size: 1.5em;
+color: black;
+font-weight: bold;
+margin-left: 50px;
+margin-top: 50px;
+}
+
+
+
+.breadcrumb-section
+{
+
+    background-image: none;
+    padding: 50px;
+    background-color: rgb(30, 23, 23);
+}
+.profile button{
+    background-color: rgb(243, 227, 85);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: 0px;
+    color: #000000;
+}
+
+.profile button:hover{
+    background-color: rgba(243, 227, 85, 0.219);
+    border-radius: 20px;
+    width: 150px;
+    height: 50px;
+    border: 1px solid black;
+    color: #999999;
+    font-weight: bold;
+}
+
+.profile a
+{
+  color: #000000;
+  font-size: 1.2em;
+  font-family: 'Outfit-Extralight';
+  font-weight: bold;
+}
+
+.personal .email{
+    color: #3f3b3b;
+    font-size: 1.1em;
+}
+
+
+
+.left{
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 30%;
+    height: 80%;
+    margin: 0px 8px;
+}
+
+.right{
+    /* border: 1px solid #fff; */
+    /* border-radius: 10px; */
+    padding: 0px 8px;
+    width: 50%;
+    height: 80%;
+    margin: 0px 8px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: #8b8b8b;
+}
+
+.left .up{
+    height: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: end;
+}
+
+.left img{
+    width: 200px;
+    height: 200px;
+}
+
+.left .down{
+    height: 50%;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.left .down span{
+    padding: 10px;
+}
+
+.left .down #name{
+    font-family: Outfit-Bold;
+    font-size: 28px;
+}
+
+.left .down button{
+    border-radius: 20px;
+    padding: 5px 10px;
+    background-color: rgb(243, 227, 85);
+    color: black;
+    font-size: 20px;
+    width: 120px;
+    cursor: pointer;
+    border-color: transparent;
+    margin: 10px;
+}
+
+.left .down button:hover{
+    background-color: rgba(255, 255, 255, 0.146);
+    border: 2px solid #000000;
+    color: #fff;
+  }
+
+.right div, .right div span{
+    font-size: 20px;
+    /* margin: 10px 10pxS; */
+}
+
+.right .datablock{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+    width: 96%;
+    font-family: Outfit-Semibold;
+    display: flex;
+    background-color: #ffffff21;
+    box-shadow: 4px 5px 5px rgb(255, 255, 221);
+    
+}
+
+.right .datablock:hover{
+    transform: scale(1.05);
+}
+
+.right div div{
+    width: 40%;
+    padding: 5px;
+}
+
+.right div span{
+    font-family: Outfit-Extralight;
+    padding: 5px;
+}
+
+#editprofile{
+    width: 70%;
+    height: 80%;
+    overflow-y:auto;
+    border: 1px solid yellow;
+    background-color: rgba(255, 255, 255, 0.8);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    color: black;
+    width: 100%;
+    max-width: 600px;
+    display: none;
+    font-family: Outfit-Regular;
+}
+
+#editprofile h2{
+    font-family: Outfit-Regular;
+}
+
+.modal-close{
+    float: right;
+}
+
+#editprofile input:not(input[type="checkbox"], input[type="submit"]){
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgb(150, 146, 112);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    display: flex;
+    
+}
+
+#editprofile input[type="checkbox"]{
+    margin-top: 5px;
+    border: 2px solid rgb(150, 146, 112);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+form input::placeholder{
+    color: rgb(150, 146, 112);
+}
+
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(150, 146, 112);
+    background-color: transparent; /* If you want a different background color, change this */
+    color: rgb(0, 0, 0);
+}
+
+/* Styling for option elements */
+form select option {
+    background-color: rgb(255, 255, 255); /* Background color for options */
+    color: rgb(0, 0, 0); /* Text color for options */
+    padding: 10px; /* Padding for options */
+}
+
+/* Placeholder color for select */
+form select::placeholder {
+    color: rgb(150, 146, 112);
+}
+
+form input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(150, 146, 112);
+    background-color: transparent; /* If you want a different background color for the date picker, change this */
+    color: rgb(0, 0, 0);
+}
+
+/* Placeholder color for date input */
+form input[type="date"]::placeholder {
+    color: rgb(150, 146, 112);
+}
+
+
+/* Styling for the checkbox and label */
+.active-label {
+    color: rgb(0, 0, 0); /* Change label text color */
+}
+
+.active-label input[type="checkbox"] {
+    /* Custom styles for the checkbox, e.g., change color */
+    background-color: rgb(150, 146, 112); /* Change checkbox background color */
+    border: 2px solid rgb(150, 146, 112); /* Change checkbox border color */
+}
+
+/* Targeting the dropdown */
+select {
+    background-color: transparent; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 10px;
+    border: 2px solid #ffffff;
+}
+
+/* Targeting the options within the dropdown */
+select option {
+    background-color: #f5f5f5; /* Background color */
+    color: #333; /* Text color */
+}
+
+
+#editprofile input[type="submit"]{
+    line-height: 35px;
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color:rgb(243, 227, 85);
+    font-family: 'Outfit-ExtraLight';
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px 0px;
+    border: 1px solid #ffffff00;
+    color: #171616;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29%;
+}
+
+#editprofile input[type="submit"]:hover{
+    filter:opacity(80%);
+    border: 2px solid black;
+    background-color: #ffffff1b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+#editpassword{
+    width: 30%;
+    height: auto;
+    border: 0px solid rgba(255, 255, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 5%;
+    left: 28%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    padding: 20px;
+    
+    box-shadow: 0 0 30px rgba(153, 151, 151, 0.5);
+    border-radius: 20px;
+    color: black;
+   
+}
+
+#editpassword h2 {
+    
+    font-size: 1.5em;
+}
+
+#passwordfrm{
+    display: flex;
+    flex-direction: column;
+}
+
+#checkoldpass{
+    color: rgb(0, 180, 0);
+    font-size: 16px;
+}
+
+#editpassword input[type="submit"]{
+    line-height: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color:#F28123;
+    cursor: pointer;
+    margin-top: 10%;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    margin-bottom: 20px;
+    margin-top: 9%;
+    width: 40%;
+    height: 40px;
+    position: relative;
+}
+
+#editpassword input[type="submit"]:hover{
+    filter:opacity(80%);
+    border: 0px solid black;
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgb(74, 66, 66);
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 20px;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid rgb(74, 66, 66);
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    position: relative;
+    border-radius: 20px;
+}
+
+.eye-icon1{
+    position: relative;
+    top: -40px;
+    left: 90%;
+    
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+    display: none;
+}
+
+.eye-icon2{
+    position: relative;
+    top: -40px;
+    left: 90%;
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.eye-icon0{
+    position: relative;
+    top: -40px;
+    left: 90%;
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+.adjust-size
+{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size:0.6em;
+}
+
+.status-message {
+    display: block;
+    margin-bottom: 10px; /* Adjust as needed */
+    font-size: 14px; /* Adjust as needed */
+}
+
+#passwordMatchStatus {
+    position: absolute;
+    top: 75%; /* Adjust as needed */
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.swal-button {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+    text-align: center; /* Center text alignment */
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensure it's displayed as a block element */
+    
+    border-radius: 10px; /* Add some border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+  /* Custom styles for the Cancel button */
+.swal-button--cancel {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+    /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom styles for the Confirm button */
+  .swal-button--confirm {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom hover styles for the Confirm button */
+  .swal-button--confirm:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+/*responsiveness*/
+@media (max-width: 768px) 
+{
+  
+    #editpassword{
+        width: 70%;
+        height:auto;
+        border: 1px solid rgba(255, 255, 0, 0);
+        background-color: rgba(255, 255, 255, 0.8);
+        position: relative;
+        margin-top: 2%;
+        margin-left: -10%;
+        margin-bottom: 10%;
+        box-shadow: 0 0 30px rgba(153, 151, 151, 0.5);
+        border-radius: 20px;
+        color: black;
+       
+    }
+
+    #editpassword input[type="submit"]{
+        line-height: 0;
+        width: 40%;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 50px;
+        background-color:#F28123;
+        cursor: pointer;
+        margin-top: 20%;
+        border: 1px solid #ffffff00;
+        color: #ffffff;
+        align-items: center;
+        justify-content: center;
+        margin-left: 25%;
+        margin-bottom: 5px;
+        position: relative;
+    }
+
+    #editpassword input[type="text"]{
+       width:100%;
+    }
+
+    #passwordMatchStatus {
+        position: absolute;
+        top: 75%; /* Adjust as needed */
+        left: 30%;
+        transform: translateX(-50%);
+    }
+}
+

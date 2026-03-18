@@ -1,0 +1,466 @@
+.feature-bg {
+    position: relative;
+    margin: 150px 0;
+  }
+  
+  .feature-bg:after {
+    background-image: url(../img/feature-bg.jpg);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 5px;
+    -webkit-box-shadow: 0 0 20px #cacaca;
+    box-shadow: 0 0 20px #cacaca;
+    border-bottom-left-radius: 5px;
+  }
+  /*
+  .team-bg-1 {
+    background-image: url(../img/team/team-.jpg);
+  }
+  
+  .team-bg-2 {
+    background-image: url(../img/team/team-.jpg);
+  }
+  
+  .team-bg-3 {
+    background-image: url(../img/team/team-.jpg);
+  }
+  
+  .team-bg-4 {
+    background-image: url(../img/team/team-.jpg);
+  }*/
+  
+  .team-bg {
+    height: 210px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #dddddd00;
+    margin-bottom: 30px;
+  }
+  
+  
+  .team-bg img{
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 240px;
+    max-height: 240px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 50px;
+    margin-bottom: 50px;
+    position: relative;
+    margin-left: 25px;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  .team-bg img:hover {
+    
+    border-radius: 50px;
+    border: 0px solid #f2802300;
+    opacity: 0.8;
+  }
+  
+  
+  .single-team-item {
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 50%;
+  }
+  
+  .single-team-item h4 {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .single-team-item h4 span {
+    font-size: 70%;
+    display: block;
+    margin-top: 10px;
+    opacity: 0.7;
+  }
+  
+  ul.social-link-team {
+    position: relative;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    margin-top: 80px;
+  }
+  
+  ul.social-link-team li {
+    display: inline-block;
+  }
+  
+  ul.social-link-team li a {
+    color: #fff;
+    background-color: #F28123;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 50%;
+    display: block;
+    margin: 5px;
+  }
+  
+  ul.social-link-team li i {
+    margin-top: 10px;
+  }
+  
+  .team-desc
+  {
+    margin-top: 20px;
+    justify-content: center;
+    width: 250px;
+  }
+  .team-desc p {
+    margin-top: 5%; /* Adjust margin as needed */
+    text-align: center; /* Center-align the text */
+    font-style: italic;
+    word-spacing:2px;
+    color: #555555;
+  }
+
+  .about
+  {
+    margin-top: -50px;
+  }
+
+  /*v m s*/
+
+  .vmo-container
+  {
+    margin-bottom: 100px;
+    position: relative;
+  }
+.text3
+{
+    margin-top: 100px;
+    margin-left: 15%;
+    width: 80%;
+    height: 220px;
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+.text3 img
+{
+    margin-left: 30px;
+    width: 150px;
+}
+
+.vision
+{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #F28123;
+    letter-spacing: 1.5px;
+    margin-left: 3%;
+    margin-top: -140px;
+}
+
+.v-desc
+{
+    text-align:left;
+    margin-left: 19%;
+    font-size: 1.3em;
+    line-height: 1.5;
+    width: 80%;
+    display: block;
+    margin-top: -60px;
+    
+}
+
+.text4
+{
+  margin-top: 20;
+  margin-left: 15%;
+  width: 80%;
+  height: 220px;
+  padding: 20px;
+  margin-bottom: 10%;
+}
+
+.text4 img
+{
+    margin-left: 80%;
+    width: 150px;
+    margin-top: -10%;
+}
+
+.mission
+{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #F28123;
+    letter-spacing: 1.5px;
+    margin-left: 68%;
+    margin-top: 20px;
+}
+
+.m-desc
+{
+    text-align:right;
+    margin-left: -2%;
+    font-size: 1.3em;
+    line-height: 1.5;
+    width: 80%;
+    display: block;
+    margin-top: 0%;
+}
+
+.text5
+{
+  margin-top: -160px;
+  margin-left: 40%;
+  width: 80%;
+  height: 220px;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.text5 img
+{
+    margin-left: -30%;
+    width: 150px;
+}
+
+.strategy
+{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #F28123;
+    letter-spacing: 1.5px;
+    margin-left: 3%;
+    margin-top: -20%;
+}
+
+.s-desc 
+{
+    text-align:left;
+    margin-left: -14%;
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin-top: -5%;
+    display: block;
+    width: 80%;
+    /* Ensure text wraps properly */
+    white-space: nowrap;
+    /* Remove any margin or padding */
+    list-style-type:circle; /* Set bullet point style */
+}
+
+.s-desc li
+{
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Apply fade-in animation to elements */
+.vmo-container {
+  animation: fadeIn 1s ease-in-out;
+}
+
+/* Transition effect */
+.text3, .text4, .text5 {
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect for text containers */
+.text3:hover, .text4:hover, .text5:hover {
+  transform: scale(1.05); /* Increase scale on hover */
+}
+.swal-button {
+  background-color: #F28123 !important; /* Orange color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+  text-align: center; /* Center text alignment */
+  margin: auto; /* Center horizontally */
+  display: block; /* Ensure it's displayed as a block element */
+  
+  border-radius: 10px; /* Add some border radius */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+  background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+}
+
+/* Custom styles for the Cancel button */
+.swal-button--cancel {
+  background-color: #aba8a8 !important; /* Gray color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+  /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+  background-color: #aba8a8 !important; /* Gray color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+
+/* Custom styles for the Confirm button */
+.swal-button--confirm {
+  background-color: #F28123 !important; /* Orange color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button--confirm:hover {
+  background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+}
+
+@media only screen and (max-width: 767px) {
+
+
+.text3 img
+{
+    margin-left: -50px;
+    width: 100px;
+}
+
+.vision
+{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #F28123;
+    letter-spacing: 1.5px;
+    margin-left: 3%;
+    margin-top: -140px;
+}
+
+.v-desc
+{
+    text-align:left;
+    margin-left: 19%;
+    font-size: 1.3em;
+    line-height: 1.5;
+    width: 80%;
+    display: block;
+    margin-top: -20px;
+    
+}
+
+.text4
+{
+  margin-top: 10%;
+  margin-left: 15%;
+  width: 80%;
+  height: 220px;
+  padding: 20px;
+  margin-bottom: 10%;
+}
+
+.text4 img
+{
+    margin-left: 80%;
+    width: 100px;
+    margin-top: -110%;
+}
+
+.mission
+{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #F28123;
+    letter-spacing: 1.5px;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.m-desc
+{
+    text-align:right;
+    margin-left: -2%;
+    font-size: 1.3em;
+    line-height: 1.5;
+    width: 80%;
+    display: block;
+    margin-top: 0%;
+}
+
+.text5
+{
+  margin-top: 50px;
+  margin-left: 40%;
+  width: 80%;
+  height: 220px;
+  padding: 20px;
+  margin-bottom: 0;
+}
+
+.text5 img
+{
+    margin-left: -50%;
+    width: 100px;
+}
+
+.strategy
+{
+    font-family:"Open Sans", sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #F28123;
+    letter-spacing: 1.5px;
+    margin-left: 3%;
+    margin-top: -20%;
+}
+
+.s-desc 
+{
+    text-align:left;
+    margin-left: -30%;
+    font-size: 1.3em;
+    line-height: 1.2;
+    margin-top: -5%;
+    display: block;
+    width: 80%;
+    /* Ensure text wraps properly */
+    white-space: nowrap;
+    /* Remove any margin or padding */
+    list-style-type:circle; /* Set bullet point style */
+}
+
+.s-desc li
+{
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.team-bg img{
+
+  float: right;
+  margin-right: 50%;
+}
+}

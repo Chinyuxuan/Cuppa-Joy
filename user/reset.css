@@ -1,0 +1,262 @@
+      /* The message box is shown when the user clicks on the password field */
+      #message {
+        display:none;
+        color: #000;
+        position: relative;
+        padding: 0px;
+        margin-top: 0px;
+        }
+
+        #message p {
+        font-size: 18px;
+		margin-top:-10px
+        }
+
+        /* Add a green text color and a checkmark when the requirements are right */
+        .valid {
+        color: green;
+        }
+
+        .valid:before {
+    position: relative;
+    left: -10px;
+    content: "✔";
+    color: #ff0000; /* Set the desired color here */
+}
+
+.back{
+    font-size: 1.4em;
+    color: black;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-top: 50px;
+    }
+
+    .back:hover{
+        font-size: 1.4em;
+        color: #F28123;
+        font-weight: bold;
+        margin-left: 50px;
+        margin-top: 50px;
+        text-decoration: none;
+        }
+        
+    
+
+        /* Add a red text color and an "x" when the requirements are wrong */
+        .invalid {
+        color: red;
+        }
+
+        .invalid:before {
+        position: relative;
+        left: -10px;
+        content: "✖";
+        }
+
+#logo {
+    top: 20px;
+    left: 155px;
+    position: fixed;
+}
+
+#logo img {
+    max-width: 220px;
+    /* margin-top: 2.2%;
+    margin-left: 1.5%;
+    bottom: 2%; */
+}
+#editpassword{
+    width: 30%;
+    height:auto;
+    border: 1px solid rgba(255, 255, 0, 0);
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    top: 15%;
+    left: 35%;
+    margin-bottom: 10%;
+    padding: 20px;
+    box-shadow: 0 0 30px rgba(153, 151, 151, 0.5);
+    border-radius: 20px;
+    color: black;
+   
+}
+
+#editpassword h2 {
+  
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#passwordfrm{
+    display: flex;
+    flex-direction: column;
+}
+
+#checkoldpass{
+    color: rgb(0, 180, 0);
+    font-size: 16px;
+}
+
+#editpassword input[type="submit"]{
+    line-height: 0;
+    width: 20%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 50px;
+    background-color:#F28123;
+    cursor: pointer;
+    margin-top: 16%;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-bottom: 10px;
+    position: relative;
+    margin-top: 8%;
+}
+
+#editpassword input[type="submit"]:hover{
+    filter:opacity(80%);
+    border: 0px solid black;
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    font-weight: bold;
+}
+
+input[type="password"],
+input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 2px solid rgb(74, 66, 66);
+    background-color: rgba(255, 0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.eye-icon1{
+    position: relative;
+    top: -40px;
+    left: 80%;
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+   
+}
+
+.eye-icon2{
+    position: relative;
+    top: -40px;
+    left: 80%;
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.status-message {
+    display: block;
+    margin-bottom: 10px; /* Adjust as needed */
+    font-size: 14px; /* Adjust as needed */
+}
+
+#passwordMatchStatus {
+    position: absolute;
+    top: 72%; /* Adjust as needed */
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.swal-button {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+    text-align: center; /* Center text alignment */
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensure it's displayed as a block element */
+    
+    border-radius: 10px; /* Add some border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+  /* Custom styles for the Cancel button */
+.swal-button--cancel {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+    /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom styles for the Confirm button */
+  .swal-button--confirm {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom hover styles for the Confirm button */
+  .swal-button--confirm:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+/*responsiveness*/
+
+
+@media (max-width: 768px) 
+{
+    #editpassword{
+        width: 70%;
+        height:auto;
+        border: 1px solid rgba(255, 255, 0, 0);
+        background-color: rgba(255, 255, 255, 0.8);
+        position: relative;
+        margin-top: 2%;
+        margin-left: -20%;
+        margin-bottom: 10%;
+        box-shadow: 0 0 30px rgba(153, 151, 151, 0.5);
+        border-radius: 20px;
+        color: black;
+       
+    }
+
+    #editpassword input[type="submit"]{
+        line-height: 0;
+        width: 30%;
+        height: 40px;
+        font-size: 17px;
+        border-radius: 20px;
+        background-color:#F28123;
+        font-weight: bold;
+        cursor: pointer;
+        margin-top: 20%;
+        border: 1px solid #ffffff00;
+        color: #ffffff;
+        align-items: center;
+        justify-content: center;
+        margin-left: 35%;
+        margin-bottom: 5px;
+        position: relative;
+    }
+
+    #passwordMatchStatus {
+        position: absolute;
+        top: 75%; /* Adjust as needed */
+        left: 30%;
+        transform: translateX(-50%);
+    }
+}

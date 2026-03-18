@@ -1,0 +1,506 @@
+.shopping-cart.profile-icon
+{
+color: #F28123;
+
+}
+
+#editprofile{
+    width: 70%;
+    height: 70%;
+    overflow-y:auto;
+    border: 0px solid rgba(255, 166, 0, 0);
+    background-color: rgba(255, 255, 255, 0.953);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(199, 197, 197, 0.988);
+    border-radius: 20px;
+    color: black;
+    max-width: 600px;
+    display: none;
+   
+}
+
+section h2
+{
+    font-size: 2em;
+    color: #3a3332;
+}
+
+.modal-close{
+    float: right;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+#editprofile input[type="checkbox"]{
+    margin-top: 5px;
+    border: 2px solid rgb(150, 146, 112);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+input[type="text"]:not(.phoneOnly input[type="text"]) {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(74, 66, 66);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+.phoneOnly input[type="text"] {
+    
+    border: 2px solid rgba(74, 66, 66, 0);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+.phoneOnly input[type="text"]:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+
+.phoneOnly  {
+    width: 100%;
+    padding:5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(74, 66, 66);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+/*
+.phoneOnly span
+{
+    border-right: 2px solid rgb(74, 66, 66);
+    border-left: 2px solid rgb(74, 66, 66);
+    border-top: 2px solid rgb(74, 66, 66);
+    border-bottom: 2px solid rgb(74, 66, 66);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 10%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    
+}*/
+
+form input[type="text"]::placeholder{
+    color: rgb(156, 149, 149);
+}
+
+/* Styling for the checkbox and label */
+.active-label {
+    color: rgb(0, 0, 0); /* Change label text color */
+}
+
+.active-label input[type="checkbox"] {
+    /* Custom styles for the checkbox, e.g., change color */
+    background-color: rgb(150, 146, 112); /* Change checkbox background color */
+    border: 2px solid rgb(150, 146, 112); /* Change checkbox border color */
+}
+
+/* Targeting the dropdown */
+select {
+    background-color: transparent; /* Background color */
+    color: #ffffff; /* Text color */
+    padding: 10px;
+    border: 2px solid #ffffff;
+    
+}
+
+/* Targeting the options within the dropdown */
+select option {
+    background-color: #ffffff; /* Background color */
+    color: #333; /* Text color */
+}
+
+
+#editprofile input[type="submit"],.container-address input[type="submit"]{
+    line-height: 0px;
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color:#F28123;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px 0px;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29%;
+}
+
+#editprofile input[type="submit"]:hover,.container-address input[type="submit"]:hover{
+    filter:opacity(80%);
+    border: 0px solid black;
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.adjust-size
+{
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    font-size:0.6em;
+}
+
+.status-message {
+    display: block;
+    margin-bottom: 10px; /* Adjust as needed */
+    font-size: 14px; /* Adjust as needed */
+}
+
+#passwordMatchStatus {
+    position: absolute;
+    top: 80%; /* Adjust as needed */
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+/*other type*/
+.main-body {
+    padding: 15px;
+    margin-top: 10%;
+    margin-bottom: 200%;
+   
+}
+
+.card {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.51), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.right .card {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 320px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+   height: 30%;
+    margin-left: 3%;
+    margin-top: 0%;
+}
+.card {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    max-width: 100%;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-left: 40px;
+    margin-top: -50px;
+}
+
+/* .card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1rem;
+    
+} */
+
+.container-address
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width:80%;
+    height: auto;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1 solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    margin-bottom: 20%;
+    float: right;
+    margin-top:-84%;
+    margin-right: -35%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.51), 0 1px 2px 0 rgba(0,0,0,.06);
+}
+
+.gutters-sm {
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.gutters-sm>.col, .gutters-sm>[class*=col-] {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.bg-gray-300 {
+    background-color: #e2e8f0;
+}
+.h-100 {
+    height: 100%!important;
+}
+.shadow-none {
+    box-shadow: none!important;
+}
+
+.card-body button 
+{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #F28123;
+    border: 0px;
+    margin-top: 5%;
+    color: #ffffff;
+}
+
+.card-body button:hover
+{
+    filter:opacity(80%);
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+.card-body a
+{
+    text-decoration: none;
+    font-style: italic;
+    cursor: pointer;
+   
+}
+
+.card-body a:hover
+{
+    color: #F28123;
+}
+
+.del 
+{
+    color: red;
+    font-style: italic;
+    float: right;
+    margin-right: -15%;
+    cursor: pointer;
+}
+
+.del:hover
+{
+    color: rgb(0, 162, 255);
+    font-style: italic;
+    float: right;
+    margin-right: -15%;
+    cursor: pointer;
+}
+
+.right .card-body 
+{
+    float: left;
+    margin-top:0px;
+    position: relative;
+    margin-left:0px;
+    width: 100%;
+    height: 300px;
+}
+
+
+
+#phone-error
+{
+    position: relative;
+    color: red;
+}
+
+/*popup address*/
+#select-address
+{
+    width: 70%;
+    height: 70%;
+    overflow-y:auto;
+    border: 1px solid rgba(255, 166, 0, 0);
+    background-color: rgba(255, 255, 255, 0.953);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(199, 197, 197, 0.988);
+    border-radius: 20px;
+    color: black;
+    scrollbar-width: thin; /* Specify the width of the scrollbar */
+    scrollbar-color: #F28123 #f2802300;
+    max-width: 600px;
+    display: none;
+   
+}
+
+
+#select-address  input[type="submit"],#choose-address  input[type="submit"]
+,#editprofile input[type="submit"]{
+    line-height: 0px;
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color:#F28123;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px 0px;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+#select-address  input[type="submit"]:hover,#choose-address  input[type="submit"]:hover
+,#editprofile input[type="submit"]:hover{
+    filter:opacity(80%);
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select {
+    width: 50%;
+    height: 50px;
+    background: #ffffff;
+    margin-top: 0;
+    margin-left: 0%;
+    border: 2px solid rgb(74, 66, 66);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.address-text
+{
+    color: red;
+    font-size: 12px;
+}
+
+.swal-button {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+    text-align: center; /* Center text alignment */
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensure it's displayed as a block element */
+    
+    border-radius: 10px; /* Add some border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+#editPost,#editPost::placeholder,
+#editCity-state,#editCity-state::placeholder
+{
+    background-color: #f0f0f0;
+    color: #3a3332;
+}
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+  /* Custom styles for the Cancel button */
+.swal-button--cancel {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+    /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom styles for the Confirm button */
+  .swal-button--confirm {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom hover styles for the Confirm button */
+  .swal-button--confirm:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+/*responsive*/
+
+@media (max-width: 767px) 
+{
+  .container-address
+
+  {
+    margin-left: -15px;
+    margin-top: 10px;
+    width:100%;
+  }
+
+  .del 
+{
+  
+    margin-right: -5%;
+    
+}
+
+.card-body a
+{
+    text-decoration: none;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.card-body a:hover
+{
+    color: #F28123;
+}
+
+.right
+{
+    margin-top: 0px;
+}
+
+label .labelNum  
+{
+    margin-bottom: 50px;
+}
+}
+

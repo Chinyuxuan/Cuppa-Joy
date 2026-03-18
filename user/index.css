@@ -1,0 +1,470 @@
+.product-section
+{
+  margin-top: 5%;
+  margin-bottom: 50px;
+}
+
+
+#select-address
+{
+    width: 70%;
+    height: 70%;
+    overflow-y:auto;
+    border: 1px solid rgba(255, 166, 0, 0);
+    background-color: rgba(255, 255, 255, 0.953);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(199, 197, 197, 0.988);
+    border-radius: 20px;
+    color: black;
+    
+    max-width: 600px;
+    display: none;
+   
+}
+#choose-address
+{
+    width: 70%;
+    height: 70%;
+    overflow-y:auto;
+    border: 1px solid rgba(255, 166, 0, 0);
+    background-color: rgba(255, 255, 255, 0.953);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(199, 197, 197, 0.988);
+    border-radius: 20px;
+    color: black;
+    
+    max-width: 600px;
+    display: none;
+   
+}
+section h2
+{
+    font-size: 2em;
+    color: #3a3332;
+}
+
+.modal-close{
+    float: right;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#editprofile input[type="checkbox"]{
+    margin-top: 5px;
+    border: 2px solid rgb(150, 146, 112);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(74, 66, 66);
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+form input[type="text"]::placeholder{
+    color: rgb(156, 149, 149);
+}
+
+
+
+#select-address  input[type="submit"],#choose-address  input[type="submit"]{
+    line-height: 0px;
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color:#F28123;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px 0px;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+}
+
+#choose-address input[type="submit"]
+{
+margin-top: 30px;
+}
+
+#select-address  input[type="submit"]:hover,#choose-address  input[type="submit"]:hover{
+    filter:opacity(80%);
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+/*radio button*/
+/* CSS Variables */
+:root {
+    --cSize: 20px;
+    --cInactive: #232739;
+    --cActive: #F28123;
+    --particleSize: 0px;
+    --cEasing: ease;
+    --cTiming: 0.5s;
+    --innerPaddingSize: 30px;
+  }
+
+  /* Checkbox Styles */
+  .particles-checkbox {
+    height: var(--cSize);
+    width: var(--cSize);
+    display: inline-flex;
+    appearance: none;
+    border: 3px solid lighten(#232739, 30%);
+    border-radius: 70%;
+    position: relative;
+    cursor: pointer;
+    transition: all var(--cTiming) var(--cEasing);
+    margin-top: 20px;
+  }
+  
+  .particles-checkbox:focus {
+    outline: 0;
+  }
+  
+  .particles-checkbox:checked {
+    background-color: #F28123;
+  }
+  
+  .particles-checkbox:checked::after {
+    background-color: #ffffff;
+    height: calc(var(--cSize) * 0.3);
+    width: calc(var(--cSize) * 0.3);
+  }
+  
+  .particles-checkbox:checked::before {
+    animation: particleAnimate var(--cTiming) var(--cEasing) forwards;
+  }
+  
+  .particles-checkbox:checked + span {
+    border-color: #F28123;
+    color: lighten(#232739, 60%);
+  }
+  
+  .particles-checkbox::before,
+  .particles-checkbox::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: inherit;
+    height: 0px;
+    width: 0px;
+  }
+  
+  .particles-checkbox::after {
+    transition: all var(--cTiming) var(--cEasing);
+  }
+  
+  .particles-checkbox::before {
+    --particleSize: 4px;
+    height: var(--particleSize);
+    width: var(--particleSize);
+    z-index: 2;
+    background-color: #4d443c;
+    border-radius: 70%;
+  }
+
+
+  /* Keyframes */
+  @keyframes particleAnimate {
+    0% {
+      box-shadow: 0px 0px 0px transparent, 0px 0px 0px transparent, 0px 0px 0px transparent;
+      transform: rotate(0turn);
+      opacity: 1;
+    }
+    50%, 100% {
+      box-shadow: 20px 0px #f94144, 30px 0px #f9c74f, 32px 0px #ffd166;
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(0.5turn);
+    }
+  }
+  
+  /* Link Styles */
+  .link {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    display: inline-flex;
+    padding: 8px 16px;
+    color: #ffffff;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: red;
+  }
+
+  /*sign in and sign up*/
+  .header-icons .signUp
+  {
+  position: relative;
+  background-color: #ffffff62;
+  width: 110px;
+  border-radius: 50px;
+  box-shadow: 0 0 20px #555555;
+  line-height: 0;
+  margin-top: 5px;
+  float: right;
+  top: 0px;
+  margin-right: -80%;
+  font-family: 'Poppins', sans-serif;
+  }
+
+  .header-icons .signIn
+  {
+    position: relative;
+    background-color: #ffffff62;
+    width: 110px;
+    border-radius: 50px;
+    box-shadow: 0 0 20px #555555;
+    line-height: 0;
+    margin-top: 5px;
+    float: right;
+    top: 0px;
+    margin-right: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .header-icons .signIn:hover,
+  .header-icons .signUp:hover
+  {
+  
+  background-color: #ffffffe3;
+ 
+  }
+
+  .header-icons  .signIn a,
+  .header-icons  .signUp a
+  {
+    text-decoration: none;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  /*popular items*/
+  .popular-img img{
+    max-width: 120px;
+    min-width: 120px;
+    max-height: 150px;
+    min-height: 150px;
+    margin-top: 20px;
+    margin-left: 20%;
+    border-radius: 10px;
+  }
+
+  .popular-desc h4
+  {
+    color: #ffffff;
+    margin-left: 0%;
+    margin-top: 2%;
+    padding-top: 0px;
+    font-size: 18px;
+    margin-bottom: -35px;
+
+  }
+
+  .popular-desc h4 a
+  {
+    color: #171717;
+    text-transform: capitalize;
+    font-weight:bold;
+  }
+
+  .popular {
+    color: #010101;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 330px;
+    max-height: 330px; /* Changed from 20px to 250px */
+    background-color: rgba(252, 252, 252, 0.76);
+    margin-top: 0%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+    margin-left: 10%;
+    border-bottom: 1px solid #010101; /* Added bottom border color */
+    -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.popular:hover {
+  border-bottom: 10px solid #F28123; /* Added bottom border color */
+  border-radius: 25px;
+}
+
+  .popular p 
+  {
+    color: #161616;
+    margin-left: 0%;
+    font-style: italic;
+    margin-top: -2%;
+  }
+
+  
+  .popular-desc .text
+  {
+    color: #000000;
+    margin-left: 0%;
+    padding-bottom: 0px;
+    margin-top: -50px;
+  }
+
+  .popular-desc .text a
+  {
+    color: #f8f8f8;
+  }
+  .popular-desc .cart-btn {
+    margin-left: 15%;
+  
+  }
+
+  .popular-desc a:hover {
+  
+  
+    color: #000000;
+ 
+  }
+
+  .popular .popular-desc
+  {
+   margin-top: 0px;
+   margin-left: 15%;
+  }
+
+  .popular-desc .description {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 0%; /* Adjust margin as per your design */
+    margin-top: 40px;
+    margin-bottom: -30px;
+    width: 80%;
+}
+
+.popular-cart
+{
+  margin-left: 85%;
+}
+
+.cart-banner .section-title
+{
+  margin-left: 25%;
+}
+
+.cart-banner .orange-text
+{
+  margin-left: 10%;
+}
+
+.cart-banner .section-title h3:after {
+  position: relative;
+  content: '';
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  width: 50px;
+  height: 2px;
+  background-color: #F28123;
+
+}
+
+.swal-button {
+  background-color: #F28123 !important; /* Orange color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+  text-align: center; /* Center text alignment */
+  margin: auto; /* Center horizontally */
+  display: block; /* Ensure it's displayed as a block element */
+  
+  border-radius: 10px; /* Add some border radius */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+  background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+}
+
+/* Custom styles for the Cancel button */
+.swal-button--cancel {
+  background-color: #aba8a8 !important; /* Gray color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+  /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+  background-color: #aba8a8 !important; /* Gray color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+
+/* Custom styles for the Confirm button */
+.swal-button--confirm {
+  background-color: #F28123 !important; /* Orange color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button--confirm:hover {
+  background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+}
+/*
+.container-promo {
+  width: 100%;
+  height: 80vh;
+  background: #f0fff3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+@media only screen and (max-width: 767px) {
+  .popular
+  {
+    margin-left: 25%;
+  }
+
+  
+	.popular-cart
+	{
+		width: 30%;
+		margin-left:65%;
+	}
+}
+
+
+

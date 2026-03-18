@@ -1,0 +1,215 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+.no-status {
+  position: relative;
+  opacity: 80%;
+}
+
+.no-status .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(98, 93, 93, 0.5); /* Adjust color and opacity as needed */
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+
+.no-status .disabled-link
+{
+  cursor:not-allowed;
+}
+
+.no-status .disabled
+{
+  cursor:not-allowed;
+}
+
+.wrapper {
+    padding-top: 70px;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 13px;
+    top: -50%;
+    left: 15%;
+    
+  }
+  
+.wrapper::-webkit-scrollbar
+{
+  background-color: #4b453d;
+}
+
+  .wrapper .icon {
+    position: absolute;
+    top: -40px;
+    height: 100%;
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon:first-child {
+    left: 0;
+    display: none;
+    background: linear-gradient(90deg, #fff 70%, transparent);
+  }
+  
+  .icon:last-child {
+    right: 0;
+    justify-content: flex-end;
+    background: linear-gradient(-90deg, #fff 70%, transparent);
+  }
+  
+  .icon i {
+    width: 55px;
+    height: 55px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 55px;
+    border-radius: 50%;
+    top: -40px;
+  }
+  
+  .icon i:hover {
+    background: #efedfb;
+  }
+  
+  .icon:first-child i {
+    margin-left: 15px;
+  } 
+  
+  .icon:last-child i {
+    margin-right: 15px;
+  } 
+  
+  .wrapper .tabs-box {
+    display: flex;
+    list-style: none;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .tabs-box.dragging {
+    scroll-behavior: auto;
+    cursor: grab;
+  }
+
+  /*search*/
+/* Search form styling */
+form.search {
+  position: relative;
+  margin-bottom: 2%; /* Adjust margin as needed */
+  margin-top: -80px;
+}
+
+.search__field {
+  width: 20%; /* Take full width of the parent container */
+  height: 40px; /* Adjust height as needed */
+  font-family: 'Poppins', sans-serif; /* Use the imported Google font */
+  font-size: 1em; /* Adjust font size as needed */
+  padding: 10px; /* Adjust padding as needed */
+  border: 2px solid #ccc; /* Add border */
+  border-radius: 20px; /* Add border radius */
+  transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+/* Add styles for placeholder text */
+.search__field::placeholder {
+  color: #999; /* Adjust placeholder color */
+}
+
+/* Add styles for when input is focused */
+.search__field:focus {
+  outline: none; /* Remove default focus outline */
+  border-color: #4b453d; /* Change border color when focused */
+}
+
+.category-name
+{
+  color:orange;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.pagination-wrap ul
+{
+  margin-bottom: 50px;
+}
+
+.swal-button {
+  background-color: #F28123 !important; /* Orange color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+  text-align: center; /* Center text alignment */
+  margin: auto; /* Center horizontally */
+  display: block; /* Ensure it's displayed as a block element */
+  
+  border-radius: 10px; /* Add some border radius */
+  padding: 10px 20px; /* Add padding */
+  cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+  background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+}
+
+/* Custom styles for the Cancel button */
+.swal-button--cancel {
+  background-color: #aba8a8 !important; /* Gray color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+  /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+  background-color: #aba8a8 !important; /* Gray color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+
+/* Custom styles for the Confirm button */
+.swal-button--confirm {
+  background-color: #F28123 !important; /* Orange color */
+  color: #fff !important; /* White text color */
+  border: none !important; /* No border */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button--confirm:hover {
+  background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+}
+
+  @media (max-width: 767px) 
+{
+  .wrapper {
+    padding-top: 70px;
+    position: relative;
+    overflow-x: hidden;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 13px;
+    top: -50%;
+    left: 0%;
+  }
+
+  .search__field {
+    width: 40%; /* Take full width of the parent container */
+    height: 40px; /* Adjust height as needed */
+    
+  }
+}
+ 
+
+ 

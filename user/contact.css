@@ -1,0 +1,174 @@
+.location
+{
+    color: white;
+    margin-top: 12%;
+    float: left;
+    margin-left: -35%;
+}
+
+#phone-error
+{
+    margin-top: 0%;
+    margin-left:48%;
+    position: absolute;
+}
+
+#email-error
+{
+    margin-top: 0%;
+    margin-left:0%;
+    position: absolute;
+}
+
+#name-error-last
+{
+    margin-left: 50%;
+    margin-top: -10%;
+    margin-bottom: 0px;
+  
+}
+
+#name-error-first
+{
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+#subject
+{
+    margin-top: 5%;
+}
+
+form .phoneOnly
+{
+    width: 49%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-left: 49.5%;
+  margin-top: -10.5%;
+}
+
+form .phoneOnly:focus {
+    outline: 1px solid #000;
+}
+
+
+form .phoneOnly input
+{
+    border:0px solid white;
+}
+
+/* Remove focus effect for phone input */
+form .phoneOnly input:focus {
+    outline: none; /* Remove the default focus outline */
+}
+
+.swal-button {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+    text-align: center; /* Center text alignment */
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensure it's displayed as a block element */
+    
+    border-radius: 10px; /* Add some border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+  /* Custom styles for the Cancel button */
+.swal-button--cancel {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+    /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom styles for the Confirm button */
+  .swal-button--confirm {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom hover styles for the Confirm button */
+  .swal-button--confirm:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+
+@media (max-width: 767px) 
+{
+    #phone-error
+    {
+        margin-top: 0%;
+        margin-left:0%;
+        position: absolute;
+    }
+    
+    #email-error
+    {
+        margin-top: -20%;
+        margin-left:0%;
+        position: absolute;
+    }
+
+    form .phoneOnly
+{
+width: 100%;
+  margin-left: 0%;
+  margin-top: 10%;
+}
+
+form .phoneOnly input
+{
+    border:0px solid white;
+   
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+    #phone-error
+    {
+        margin-top: 0%;
+        margin-left:0%;
+        position: absolute;
+    }
+    
+    #email-error
+    {
+        margin-top: -13%;
+        margin-left:0%;
+        position: absolute;
+    }
+
+    form .phoneOnly
+    {
+    width: 100%;
+      margin-left: 0%;
+      margin-top: 5%;
+    }
+    
+    form .phoneOnly input
+    {
+        border:0px solid white;
+       
+    }
+
+}
+
+
+

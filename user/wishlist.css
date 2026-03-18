@@ -1,0 +1,546 @@
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    display: none; /* Initially hidden */
+    z-index: 900; /* Ensure overlay is below the popup */
+}
+
+.wish-heart i
+{
+color: #F28123;
+
+}
+.col-lg-3 .col-md-3
+{
+    padding: 0px 0px 0px;
+   
+}
+.wishlist-container
+{
+    margin-left: 30px;
+    margin-right: -120px;
+    
+}
+.wishlist-item
+{
+    -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  min-height: 280px;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  -webkit-box-shadow: 0 0 20px #e4e4e4;
+  box-shadow: 0 0 20px #e4e4e4;
+  border-radius: 50px;
+  width: 400px;
+ 
+}
+
+.wishlist-details
+{
+    margin-top: -48%;
+    margin-left: 45%;
+    padding-right: 10px;
+}
+
+.wishlist-photo
+{
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.wishlist-photo img
+{
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin-top: 0px;
+    min-width: 130px;
+  max-width: 130px;
+  min-height: 200px;
+  max-height: 200px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+
+}
+
+
+.wishlist-name
+{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.wishlist-price
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
+.del-btn
+{
+    background-color: #ff0000;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5%;
+    padding: 10px 20px;
+    color: white;
+}
+
+.del-btn:hover
+{
+    background-color: #e61d1d79;
+    border-radius: 50px;
+    border: none;
+    margin-top: 5%;
+    padding: 10px 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+/*status no product*/
+.no-prod .wishlist-item
+{
+    margin-top: 10%;
+    -webkit-box-shadow: 0 0 20px #ad3a3a;
+  box-shadow: 0 0 20px #ad3a3a;
+opacity: 50%;
+  margin-right: 850px;
+  margin-left: 4%;
+}
+
+.no-prod .wishlist-item .del-btn {
+    opacity: 1;  /* Override opacity for the content and button */
+    position: relative;
+    z-index: 1;  /* Ensure the button is above the overlay */
+}
+
+.no-prod
+{
+    display: inline-block;
+
+}
+
+.no-prod .del-btn
+{
+    opacity:1;
+
+}
+
+.msg-no h2{
+    font-size: 18px;
+    margin-left: 30px;
+    color: #d57575;
+}
+
+/*pop up form*/
+
+.row .compulsoryError
+  {
+    font-size: 1em;
+    font-style: italic;
+  }
+
+#addCart{
+    width: 70%;
+    max-height:70% ;
+    height: auto;
+    overflow-y:auto;
+    border: 0px solid rgba(255, 166, 0, 0);
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(199, 197, 197, 0);
+    border-radius: 20px;
+    color: black;
+    max-width: 600px;
+    display:none;
+    scrollbar-width: thin; /* Specify the width of the scrollbar */
+    scrollbar-color: #F28123 #f2802300;
+}
+
+#addCart::-webkit-scrollbar-track {
+    background-color: #F28123; /* Color of the scrollbar track */
+}
+
+#addCart::-webkit-scrollbar-thumb {
+    background-color: #F28123; /* Color of the scrollbar thumb */
+}
+
+section h2
+{
+    font-size: 21px;
+    color: #3a3332;
+}
+
+.modal-close{
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 0;
+}
+
+
+#addCart input[type="submit"],.container-address input[type="submit"]{
+    line-height: 0px;
+    width: 40%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color:#F28123;
+    font-weight: bolder;
+    cursor: pointer;
+    margin: 10px 0px;
+    border: 1px solid #ffffff00;
+    color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29%;
+}
+
+#addCart input[type="submit"]:hover,.container-address input[type="submit"]:hover{
+    filter:opacity(80%);
+    border: 0px solid black;
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+form h4
+  {
+    margin-top: 10px;
+    border-bottom:2px solid #ef8a2b;
+    width: 150px;
+    color: #ef8a2b;
+  }
+  
+  /*num*/
+  .qty {
+    position:relative;
+    width: 80%;
+    height: 100px;
+    border: 0px solid rgba(64, 51, 51, 0);
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0 0 20px #4540363e;
+    padding-top: 15px;
+    border-radius: 20px;
+    margin-left: 10%;
+}
+
+.count {
+  color: #000;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  padding: 0 2px;
+  width: 50px;
+  text-align: center;
+}
+.qty .plus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    }
+.qty .minus {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+    width: 30px;
+    height: 30px;
+    font: 30px/1 Arial,sans-serif;
+    text-align: center;
+    border-radius: 50%;
+    background-clip: padding-box;
+    margin-left: 10%;
+}
+
+.minus:hover{
+    background-color:#ef8a2b !important;
+}
+.plus:hover{
+    background-color: #ef8a2b !important;
+}
+
+.qty .cart-limit 
+{
+  color: red;
+  left: 100px;
+  font-style: italic;
+  margin-right: 0px;
+  float: right;
+  margin-right: 30%;
+  margin-top: -1%;
+}
+
+input{  
+    border: 0;
+    width: 2%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input:disabled{
+    background-color:white;
+}
+         
+a
+{
+  text-decoration: none;
+}
+
+/*button add to cart*/
+form 
+{
+margin-bottom: 10%;
+}
+
+form .qty button
+{
+  width: 35%;
+  height: 45px;
+  font-size: 17px;
+  border-radius: 20px;
+  background-color:#F28123;
+  font-weight: bolder;
+  cursor: pointer;
+  border: 1px solid #ffffff00;
+  color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0%;
+}
+
+form .qty button:hover
+{
+  filter:opacity(80%);
+    background-color:#f280238b;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+}
+
+/* Custom Radio Button Styling */
+#customization-container
+{
+margin-left: 10%;
+}
+
+#addCart .inputGroup {
+    background-color: #ffffff00;
+    display: block;
+    margin: 10px 0;
+    position: relative;
+}
+
+.inputGroup label .name {
+    margin-right: 10px; /* Adjust the margin value as needed */
+}
+
+
+#addCart label {
+    padding: 12px 30px;
+    width: 60%;
+    display: inline-block;
+    text-align: left;
+    color: #3C454C;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+    transition: color 200ms ease-in;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 0%;
+    margin-left: 3%;
+    background-color: #e9e7e7;
+}
+
+#addCart label:hover {
+    background-color: #ef8a2b71;
+}
+
+#addCart label:before {
+    width: 10px;
+    height: 10px;
+    border-radius: 20px;
+    content: '';
+    background-color: #ef8a2b;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%) scale3d(1, 1, 1);
+    transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    opacity: 0;
+    z-index: -1;
+}
+
+#addCart input:checked + label {
+    color: #fff;
+  }
+
+#addCart input[type="checkbox"]:checked + label:before,
+#addCart input[type="radio"]:checked + label:before {
+    transform: translate(-50%, -50%) scale3d(56, 56, 1);
+    opacity: 1;
+    border-radius: 50%; 
+    color: white;
+}
+
+#addCart label:after {
+    width: 32px;
+    height: 32px;
+    content: '';
+    border: 2px solid #D1D7DC;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5.414 11L4 12.414l5.414 5.414L20.828 6.414 19.414 5l-10 10z' fill='%23fff' fill-rule='nonzero'/%3E%3C/svg%3E ");
+    background-repeat: no-repeat;
+    background-position: 2px 3px;
+    border-radius: 20px;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: all 200ms ease-in;
+}
+
+#addCart input[type="checkbox"]:checked + label:after,
+#addCart input[type="radio"]:checked + label:after {
+    background-color: #463f37;
+    border-color: #463f37;
+    color: #fff;
+}
+
+#addCart .inputGroup input[type="checkbox"],
+#addCart .inputGroup input[type="radio"] {
+    width: 50px;
+    margin-right: -20px;
+    display: inline-flex;
+    top: -50%;
+  
+}
+
+#addCart input[type="checkbox"],
+#addCart input[type="radio"] {
+width: 20px;
+height: 20px;
+margin-left: 0%;
+display: inline-block;
+top: -20px;
+position: relative;
+z-index: 3;
+visibility: hidden;
+}
+
+.checkbox-label
+{
+margin-right: 50px;
+}
+
+p .price
+{
+    margin-left: 50px;
+}
+
+.empty-list h2
+{
+    font-size: 20px;
+   margin-left: 40%;
+   margin-top: 5%;
+   color: #9b9b9b;
+}
+
+.empty-list img
+{
+margin-left: 35%;
+width: 25%;
+margin-bottom: 10%;
+}
+
+.swal-button {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+    text-align: center; /* Center text alignment */
+    margin: auto; /* Center horizontally */
+    display: block; /* Ensure it's displayed as a block element */
+    
+    border-radius: 10px; /* Add some border radius */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Add cursor pointer */
+}
+
+/* Custom hover styles for the Confirm button */
+.swal-button:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+  /* Custom styles for the Cancel button */
+.swal-button--cancel {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+    /* Custom styles for the Cancel button */
+.swal-button--cancel:hover {
+    background-color: #aba8a8 !important; /* Gray color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom styles for the Confirm button */
+  .swal-button--confirm {
+    background-color: #F28123 !important; /* Orange color */
+    color: #fff !important; /* White text color */
+    border: none !important; /* No border */
+  }
+  
+  /* Custom hover styles for the Confirm button */
+  .swal-button--confirm:hover {
+    background-color: #ef8a2ba3 !important; /* Lighter shade of orange */
+  }
+
+  @media only screen and (max-width: 767px) {
+    .no-prod .wishlist-item
+{
+ margin-left: 0;
+ margin-top: 10px;
+}
+
+.empty-list h2
+{
+    font-size: 20px;
+   margin-left: 25%;
+   margin-top: 5%;
+   color: #9b9b9b;
+}
+
+.empty-list img
+{
+margin-left: 20%;
+width: 50%;
+margin-bottom: 10%;
+}
+
+  }
