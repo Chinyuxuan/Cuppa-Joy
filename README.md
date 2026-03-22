@@ -578,13 +578,16 @@ This is the figure to show the wish list item that can be customized. Thus, the 
 
 This is the figure to show the pop-up alert when the customer didn’t add quantity (quantity is 0) and the quantity is greater than 12 after they click “Add to cart”. The system has limited the customers to one cart cannot contain 12 items due to delivery reasons.
 
+
 Figure 4.73 Cuppa Joy – Wishlist page (Add to cart)
 This is the figure to show the pop-up alert when the customer adds the item to the cart and checks whether the cart has over 12 items already. So, this alert will be shown when the cart has over 12 items after the new quantity that the customer wants to add is added to the existing item quantity in the cart.  If the current cart has 4 items already, the customer cannot add 9 items into the cart.
 
  
 Figure 4.74 Cuppa Joy – Wishlist page (Add to cart)
 This is the figure to show the pop-up confirmation message to ask the customer to confirm whether to add the same item to the cart. If the customer clicks “cancel”, means that they don’t want to add the same item, else the item will be added to the cart and increment the cart item quantity.
+
 Show promo page 
+
  
 Figure 4.75 Cuppa Joy – Show promo (Not Sign In)
 This is the figure to show the coupons for all customers. When the customer is not signed in yet, the promo will show based on before the end date.
