@@ -94,7 +94,7 @@ I am responsible for building the **customer module**, which includes the scopes
 
 **Video**:https://youtu.be/aZ5d9Zq5T5U 
 
-**Detailed screenshots**:
+**Detailed explanations**:
 
 ### Sign Up page
 
