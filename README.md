@@ -92,7 +92,7 @@ I am responsible for building the **customer module**, which includes the scopes
 
 ## 4) Visuals of pages
 
-**Video**:
+**Video**:https://youtu.be/aZ5d9Zq5T5U 
 
 **Detailed screenshots**:
 
@@ -102,25 +102,25 @@ I am responsible for building the **customer module**, which includes the scopes
 
 <p align="center"> Figure 4.1 Cuppa Joy – Sign Up </p>
 
-This is the sign-up page of Cuppa Joy. It has fields of first name, last name, email, phone number, password, and confirm password. Then, if the customer has an account, they can click “Sing in” on the left side to go to the Sign-in page. If customers click the logo of Cuppa Joy, they can go to the Home page.
+This is the sign-up page of Cuppa Joy. It has fields of first name, last name, email, phone number, password, and confirm password. Then, if the customer has an account, they can click “Sign in” on the left side to go to the Sign-in page. If customers click the logo of Cuppa Joy, they can go to the Home page.
 
 A pop-up alert will be shown to mention that the email used to sign up has been used by another customer to create the account. Thus, the customer cannot create an account with the same email even if the email owner is the same person.
 
 If the customer enters the wrong information, the red color error message and pop-up alerts will be shown under eacch entry fields.
 
-<img width="556" height="383" alt="image" src="https://github.com/user-attachments/assets/07d272cc-a8b4-43bc-a3ab-ca8e21774033" />
+<img width="330" height="453" alt="image" src="https://github.com/user-attachments/assets/c968ec32-e6cd-4e58-bfe2-2ca05dfb6117" />
  
 <p align="center"> Figure 4.2 Cuppa Joy – Sign Up with the correct information</p>
 
 This is the figure to show the correct information when a user creates an account.
 
- <img width="583" height="416" alt="image" src="https://github.com/user-attachments/assets/29a031db-f349-4edd-9d96-b3dfc3175f22" />
+<img width="556" height="383" alt="image" src="https://github.com/user-attachments/assets/8933ef00-10d3-4ea4-9220-fad474efd9d8" />
 
 <p align="center"> Figure 4.3 Cuppa Joy – Sign Up Successfully</p>
 
 This is the figure to show the pop-up message to show that the customer has created an account successfully and mention that the OTP code for verifying has been sent to the customer's mailbox.
 
-<img width="864" height="301" alt="image" src="https://github.com/user-attachments/assets/5b7e07fd-d655-45e7-8f49-f64023e52644" />
+<img width="583" height="416" alt="image" src="https://github.com/user-attachments/assets/673fbb0c-76e1-49af-8c34-a50a8a22e590" />
 
 <p align="center"> Figure 4.4 Cuppa Joy – Mailbox to receive the OTP code </p>
 
@@ -128,7 +128,7 @@ This is the figure to show the email that Cuppa Joy sent to the customer to give
 
 ### Verification page
 
-<img width="469" height="315" alt="image" src="https://github.com/user-attachments/assets/72721438-12db-457d-8c8e-c229da110d80" />
+<img width="864" height="301" alt="image" src="https://github.com/user-attachments/assets/607d7bae-295d-4bbb-9853-20dc5074c6c0" />
  
 <p align="center">Figure 4.5 Cuppa Joy – Verify account page</p>
 
@@ -140,7 +140,7 @@ A pop-up message will be shown to mention that the customer has entered the corr
 
 ### Sign In page
 
-<img width="415" height="213" alt="image" src="https://github.com/user-attachments/assets/ae820e06-a24d-400a-95f6-2e1dd77703f1" />
+<img width="866" height="433" alt="image" src="https://github.com/user-attachments/assets/af3dc05f-fda2-475f-bdae-6388bd69dc20" />
  
 <p align="center">Figure 4.6 Cuppa Joy – Sign In page</p>
 
@@ -150,7 +150,7 @@ A pop-up alert will be shown to mention that the customer has entered the wrong 
 
 ### Reverify account – If customer has forgotten to verify the account previously
 
- <img width="448" height="301" alt="image" src="https://github.com/user-attachments/assets/e392a3b8-c249-45cc-8542-2f1a740adbbc" />
+<img width="509" height="361" alt="image" src="https://github.com/user-attachments/assets/5d70e923-d01d-4fb2-a344-86795277bdd9" />
 
 <p align="center">Figure 4.7 Cuppa Joy – Reverify the account</p>
 
@@ -158,7 +158,7 @@ This is the figure to show the pop-up alert to mention the customer has forgotte
 
 So the pop-up message will be shown to show the email has been sent successfully to customers to enable them to receive the OTP code again. After they click “OK”, the system will lead the customer to verify the account page again. The verification account process is the same as the previous verification process after the customer creates the account.
 
- <img width="865" height="326" alt="image" src="https://github.com/user-attachments/assets/44a66d9b-503f-4723-9b4d-d6eaf27c007d" />
+<img width="449" height="163" alt="image" src="https://github.com/user-attachments/assets/0dadd747-eb03-4788-9b19-031caf8dac04" />
 
 <p align="center"> Figure 4.8 Cuppa Joy – Forgot Password</p>
 
@@ -166,7 +166,7 @@ This is the figure to show a link to enable customers reset their password if th
 
 ### Recover Password page 
 
- <img width="381" height="251" alt="image" src="https://github.com/user-attachments/assets/1de5d96d-a16e-4366-9600-89520edd8b52" />
+<img width="865" height="326" alt="image" src="https://github.com/user-attachments/assets/680b8450-458b-4444-8345-8da1692d3c1d" />
 
 <p align="center">Figure 4.9 Cuppa Joy - Recover Password</p>
 
@@ -174,7 +174,7 @@ This is the figure to show the page that enables customers to enter their email 
 
 The error message and pop-up alert appear when a customer enters the wrong email format or enter the non-existent email in the database.
 
- <img width="864" height="363" alt="image" src="https://github.com/user-attachments/assets/f061fff0-3b90-483c-af5d-3c1b3ebcac1c" />
+<img width="866" height="385" alt="image" src="https://github.com/user-attachments/assets/f5839d66-6571-48fc-81e2-859b28d8affe" />
 
 <p align="center"> Figure 4.10 Cuppa Joy – Email to send page for resetting the password</p>
 
@@ -182,7 +182,7 @@ This is the figure to show the mailbox after the customer enters the correct ema
 
 ### Reset Password page
 
- <img width="534" height="519" alt="image" src="https://github.com/user-attachments/assets/b8ebef71-75ce-46a7-9c41-4a73c45b30ce" />
+ <img width="864" height="363" alt="image" src="https://github.com/user-attachments/assets/592e3764-e281-4f80-8454-f4e59eb2a15d" />
 
 <p align="center">Figure 4.11 Cuppa Joy - Reset Password</p>
 
@@ -194,19 +194,19 @@ If the customer has entered the wrong password format, the system has shown the 
 
 The pop-up alert appear when the customer doesn’t match the new password and confirms the password.
 
- <img width="438" height="280" alt="image" src="https://github.com/user-attachments/assets/3bf5c3e5-5cb6-41b5-a07a-2b57c47ac7d6" />
+<img width="486" height="473" alt="image" src="https://github.com/user-attachments/assets/bb2aa550-b44f-4958-bd42-949f44c31a9f" />
 
 <p align="center">Figure 4.12 Cuppa Joy - Reset Password with correct password information</p>
 
 This is the figure to show the customer has entered the correct password format and the password is matched with the confirm password. Then, the new password is not the same as the old password. Thus, the customer can reset the password.
 
 ### Home page – Not Sign In/Sign In
+<img width="616" height="311" alt="image" src="https://github.com/user-attachments/assets/644d7a91-6a08-4fb8-9773-d26f2b639650" />
+<img width="623" height="284" alt="image" src="https://github.com/user-attachments/assets/d65b16c9-bb6b-4e02-89ab-ff0fc46dfa15" />
 
-<img width="623" height="284" alt="image" src="https://github.com/user-attachments/assets/397afdc0-808d-4359-aea5-faa41588f788" />
-<img width="528" height="185" alt="image" src="https://github.com/user-attachments/assets/3f19eb0f-a21f-4c63-8f14-6a88113ff929" />
-<img width="440" height="315" alt="image" src="https://github.com/user-attachments/assets/6d782843-fcab-4081-b218-258ebfe7bfb3" />
-<img width="620" height="179" alt="image" src="https://github.com/user-attachments/assets/a3f51b5f-ac52-4703-8303-069b599fb228" />
-<img width="830" height="54" alt="image" src="https://github.com/user-attachments/assets/d4c9e1e8-a69d-4466-87f8-195fb4dc6488" />
+<img width="528" height="185" alt="image" src="https://github.com/user-attachments/assets/aa0d094b-3d92-4314-a139-3d38e69f8257" />
+<img width="440" height="315" alt="image" src="https://github.com/user-attachments/assets/814c4450-9ec3-4991-8a77-dace9dd6cae1" />
+<img width="620" height="179" alt="image" src="https://github.com/user-attachments/assets/463291cf-fec8-46bd-8c25-71583b91227a" />
 
 <p align="center">Figure 4.13 Cuppa Joy – Home Page (Not sign in/Sign In)</p>
 
@@ -214,13 +214,13 @@ This is the figure to show the Cuppa Joy Home page, whether customers have to si
 
 The header will show the pages, cart, wish list, profile, and “Sign Out” button. Then, also shows the logo that enables customers to go back to the home page when they in other pages.
 
- <img width="865" height="61" alt="image" src="https://github.com/user-attachments/assets/b2f3ed00-9223-4e5b-8ed8-c984f2356e84" />
+ <img width="490" height="339" alt="image" src="https://github.com/user-attachments/assets/16804a6c-be55-47d3-9ac2-57f04ea94989" />
 
 <p align="center">Figure 4.14 Cuppa Joy – Sign Out confirmation message</p>
 
 This is the pop-up confirmation message to ask the customer to confirm to log out after the customer clicks the “Sign Out” button. If the customer clicks “cancel”, it has nothing happens, else if the customer clicks “Yes, log me out”, the system will log the customer out from the system.
 
-<img width="443" height="328" alt="image" src="https://github.com/user-attachments/assets/47b36aba-0879-490e-acae-33bd15c06f66" />
+<img width="865" height="61" alt="image" src="https://github.com/user-attachments/assets/467dca7e-e952-48b9-8722-72a1701f3159" />
 
 <p align="center">Figure 4.15 Cuppa Joy –Header (Not sign in)</p>
 
@@ -230,13 +230,13 @@ These are the pop-up confirmation messages to ask the customer to confirm to sig
 
 ### User Profile
 
- <img width="526" height="459" alt="image" src="https://github.com/user-attachments/assets/f588c662-f924-4474-abaa-f0350954f72c" />
+<img width="866" height="871" alt="image" src="https://github.com/user-attachments/assets/86f1d512-e90d-46dd-98c1-2ded07876f47" />
 
 <p align="center">Figure 4.16 Cuppa Joy – Profile page</p>
 
 This is the figure to show the customer profile page. It shows some customer information and enables customers to edit profiles, change passwords, and add addresses.
 
- <img width="434" height="366" alt="image" src="https://github.com/user-attachments/assets/b34f71dd-1657-443a-9e04-df0812079252" />
+<img width="526" height="459" alt="image" src="https://github.com/user-attachments/assets/98ae4946-c74b-4a4a-9d56-538788605c9e" />
 
 <p align="center">Figure 4.17 Cuppa Joy – Edit profile</p>
 
@@ -244,15 +244,15 @@ This is the figure to show the pop-up form to enable the customer to edit the pr
 
 The error message and pop-up alerts appear when a customer enters the wrong information.
 
- <img width="865" height="211" alt="image" src="https://github.com/user-attachments/assets/d84d13f8-10c1-4ee4-9469-5c2777f3a0fc" />
-<img width="540" height="438" alt="image" src="https://github.com/user-attachments/assets/cd657c9e-9764-49b4-af6a-17924aa25af4" />
+<img width="523" height="355" alt="image" src="https://github.com/user-attachments/assets/557a8562-5491-4d42-bb1d-235b43594b40" />
+<img width="865" height="211" alt="image" src="https://github.com/user-attachments/assets/0cc441d4-942f-4a7b-bf46-93fa9289e102" />
 
 <p align="center">Figure 4.18 Cuppa Joy – Edit profile with successfully</p>
 
 This is the figure to show the pop-up message when a customer edit a profile successfully. The table shows the customer information has been updated.
 
-  <img width="539" height="213" alt="image" src="https://github.com/user-attachments/assets/26cf79fc-0e0c-47a4-8560-d30e9360d33c" />
-  <img width="594" height="374" alt="image" src="https://github.com/user-attachments/assets/9e3d6425-df4b-4d19-abca-e059366e15b7" />
+<img width="540" height="438" alt="image" src="https://github.com/user-attachments/assets/f9b907ed-8da1-4b8d-8990-f34063ca2f76" />
+<img width="539" height="213" alt="image" src="https://github.com/user-attachments/assets/ab894bb8-866d-4d28-9939-d1f46f86a305" />
 
 <p align="center">Figure 4.19 Cuppa Joy – Add address</p>
 
@@ -260,7 +260,7 @@ This is the figure to show the pop-up form when the customer wants to add an add
 
 The error message and pop-up alert when a customer adds an address with the wrong information. Address 1 and address 2 cannot be empty.
 
- <img width="509" height="334" alt="image" src="https://github.com/user-attachments/assets/4ca5af56-d104-4c88-85e7-80f290980cde" />
+<img width="554" height="486" alt="image" src="https://github.com/user-attachments/assets/2779e130-9d4a-4d86-a0d3-8c2120a493cd" />
 
 <p align="center">Figure 4.20 Cuppa Joy – Add address with correct information</p>
 
@@ -270,7 +270,7 @@ The pop-up confirmation message appear when the customer deletes the address, an
 
 ### Change Password page
 
- <img width="409" height="526" alt="image" src="https://github.com/user-attachments/assets/5c43d35d-ca8a-4739-a0b4-aa38f91e984c" />
+<img width="838" height="375" alt="image" src="https://github.com/user-attachments/assets/63922575-d969-4f29-937d-4b9ea2f31b89" />
 
 <p align="center">Figure 4.21 Cuppa Joy – Change Password page</p>
 
@@ -282,7 +282,7 @@ The system will mention the requirements to form the new password and also show 
 
 ### Menu page – Not Sign In/Sign In
 
- <img width="858" height="100" alt="image" src="https://github.com/user-attachments/assets/954dd750-49f6-43e0-acb4-6e85c8ec2fe3" />
+<img width="810" height="1235" alt="image" src="https://github.com/user-attachments/assets/b13a63e6-aa9c-405e-8746-b00b5243f024" />
 
 <p align="center">Figure 4.22 Cuppa Joy – Menu page (Not Sign In / Sign In)</p>
 
@@ -294,7 +294,7 @@ The page of the "All", menu will show 12 items. Then the menu will show all item
 
 The page of selected category, menu will show 12 items. Then the menu will show all items of that category even if the item is not available currently. The not available items also have the grey color filter and customers cannot click it to view product details. Customers can click “Prev” to go back to the previous page, and “Next” for the next page. Then at the top of the item list, the system shows what category exactly the customer has chosen.
 
-<img width="724" height="1283" alt="image" src="https://github.com/user-attachments/assets/537d14d4-e458-499f-bd89-79b48b617214" />
+<img width="865" height="530" alt="image" src="https://github.com/user-attachments/assets/82e6ee53-f502-45ab-b297-e4726ca9ab90" />
 
 <p align="center">Figure 4.23 Cuppa Joy – Menu page with searching function</p>
 
@@ -302,8 +302,8 @@ This is the figure to show the search results after customers have searched keyw
 
 ### Product Details page  – Not Sign In/Sign In
  
- <img width="866" height="980" alt="image" src="https://github.com/user-attachments/assets/501219d5-a257-492d-9543-f9860ee850c4" />
-<img width="866" height="980" alt="image" src="https://github.com/user-attachments/assets/98274d0f-4f48-4226-a07b-ef5ca395c364" />
+<img width="724" height="1283" alt="image" src="https://github.com/user-attachments/assets/80bd614f-2d0b-4989-bcec-84042c463783" />
+<img width="866" height="980" alt="image" src="https://github.com/user-attachments/assets/cdf4d535-75de-4f7d-a53a-67b4a0fad88f" />
 
 <p align="center">Figure 4.24 Cuppa Joy – Product details page with customization or no customization available</p>
 
@@ -311,7 +311,7 @@ This is the figure to show the item after the customer clicks the item from the 
 
 The pop-up confirmation message appear to customers after they intend to add the item to their wish list or cart. This only occurs when the customer is not signed in yet.
 
-<img width="386" height="196" alt="image" src="https://github.com/user-attachments/assets/75b80814-b662-42ab-8b6b-ab621eaec88b" />
+<img width="386" height="196" alt="image" src="https://github.com/user-attachments/assets/7bd8f2b6-5f95-4184-96c8-e7f2240c8fbd" />
 
 <p align="center">Figure 4.25 Cuppa Joy – Product details page (Add to wish list)</p>
 
@@ -321,8 +321,9 @@ The pop-up alert appear when the customer didn’t add quantity (quantity is 0) 
 
 The pop-up alert appear when the customer adds the item to the cart and checks the cart whether has over 12 items already. So, this alert will be shown when the cart has over 12 items after the new quantity that the customer wants to add is added to the existing item quantity in the cart.  For example, a cart currently has 6 items already, so if the customer wants to add more than 7 items, it is not allowed.
 
-<img width="866" height="446" alt="image" src="https://github.com/user-attachments/assets/bdcc871d-6508-42a2-8a60-7f7337f26639" />
-<img width="425" height="359" alt="image" src="https://github.com/user-attachments/assets/0e3d2b59-975a-4bb4-baa1-9b804c1ef0ee" />
+<img width="866" height="446" alt="image" src="https://github.com/user-attachments/assets/8445a691-1c96-483a-b921-dd7fe43fefbe" />
+<img width="425" height="359" alt="image" src="https://github.com/user-attachments/assets/1cf9f06a-c8c8-45fc-9a75-557cd702d05d" />
+
 
 <p align="center">Figure 4.26 Cuppa Joy – Product details page (Add to cart)</p>
 
