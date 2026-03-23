@@ -84,7 +84,7 @@ I am responsible for building the **customer module**, which includes the scopes
 
 ## 3) Tech/ Language
 
-•	**Frontend**: HTML5, CSS3, SCSS, JavaScript.
+•	**Frontend**: HTML, CSS, SCSS, JavaScript.
 
 •	**Backend**: PHP.
 
