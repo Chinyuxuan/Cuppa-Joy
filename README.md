@@ -212,7 +212,7 @@ This is the figure to show the customer has entered the correct password format 
 
 This is the figure to show the Cuppa Joy Home page, whether customers have to sign in or not sign in, the home page can be viewed by customers. The difference between customers who have signed in and not signed in is the header. The home page will show the new drinks or foods, popular drinks or foods, and the baristas.
 
-The header will show the pages, cart, wish list, profile, and “Sign Out” button. Then, also shows the logo that enables customers to go back to the home page when they in other pages.
+The header will show the pages, cart, wish list, profile, and “Sign Out” button if they are signed in. Then, also shows the logo that enables customers to go back to the home page when they in other pages.
 
  <img width="490" height="339" alt="image" src="https://github.com/user-attachments/assets/16804a6c-be55-47d3-9ac2-57f04ea94989" />
 
@@ -307,7 +307,7 @@ This is the figure to show the search results after customers have searched keyw
 
 <p align="center">Figure 4.24 Cuppa Joy – Product details page with customization or no customization available</p>
 
-This is the figure to show the item after the customer clicks the item from the menu. On this page, it will show some item information, an “Add to wishlist” button, customization for customizable items, quantity an “Add to cart” button, and the other foods or drinks. If this item has been commented on by other customers, the comments also will be shown above the “Add to cart” button. This page can be viewed if the customer is not signed in or signed in.
+This is the figure to show the item after the customer clicks the item from the menu. On this page, it will show some item information, and “Add to wishlist” button, customization for customizable items, quantity an “Add to cart” button, and the other foods or drinks. If this item has been commented on by other customers, the comments also will be shown above the “Add to cart” button. This page can be viewed if the customer is not signed in or signed in.
 
 The pop-up confirmation message appear to customers after they intend to add the item to their wish list or cart. This only occurs when the customer is not signed in yet.
 
